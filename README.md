@@ -1,2 +1,2 @@
 # wino
-Management of HolidayRequest for enployees
+Management of HolidayRequest for employees
