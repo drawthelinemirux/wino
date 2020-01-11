@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { RequestLeaveComponent } from './request-leave/request-leave.component';
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { RouterModule } from '@angular/router';
       }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])
-  ]
+  ],
+  declarations: [RequestLeaveComponent]
 })
 export class JhipsterSampleApplicationEntityModule {}
